@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: Lora, sans-serif;
+}
+
+/*Menu*/
+
+.menu {
+  background-color: #1e1e24;
+  border-top: 1px solid #cc0000;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 34.5px;
+}
+
+.menu ul {
+  margin: 0;
+  text-align: center;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul a {
+  font-family: Baloo Tamma, sans-serif;
+  font-size: 20px;
+  padding: 2px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu a:hover {
+  color: #f1f1f1;
+}
+
+/*POST*/
+
+.post-box {
+  display: block;
+  margin: auto;
+  background-color: #fff;
+  max-width: 1000px;
+  border: 1px solid #ccc;
+  padding-top: 23px;
+}
+
+.post {
+  font-family: Lora, sans-serif;
+  padding: 45px;
+}
+
+.post p {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.post h1 {
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 23px;
+  font-size: 23px;
+  color: #4a4a4a;
+}
+
+.space {
+  margin-top: 55px;
+
+}
+
+.post h2 {
+  padding: 20px 0;
+  font-size: 18px;
+  color: #4a4a4a;
+}
+
+/*Botao*/
+
+.btn-all {
+  margin: auto;
+  display: block;
+  width: 1000px;
+}
+
+  .btn {
+  width: 60px;
+  height: auto;
+  position: relative;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-left: 10px;
+  border: 0px;
+  border-color: white;
+  border-radius: 20%;
+  border-top: 0;
+  border-left: 0;
+}
+
+.btn-v {
+  float: left;
+}
+
+.btn-a {
+  float: right;
+}

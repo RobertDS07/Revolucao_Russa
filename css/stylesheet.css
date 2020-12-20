@@ -1,0 +1,238 @@
+body {
+  border: none;
+  margin: none;
+  padding: none;
+}
+
+h1  {
+font-family: "Baloo Tamma" ,cursive, sans-serif;
+}
+
+h2, h3, h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+div {
+  display: block;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+
+    padding: 0;
+    margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.responsive {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Header */
+
+#background {
+  margin: 0;
+  padding: 18% 0;
+  background-image: url(../img/header1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#background h1 {
+  color: #fff;
+  font-size: 41px;
+}
+
+.buttom-start {
+  font-family: Roboto, sans-serif;;
+  padding: 8px;
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1.8888px solid #fff;
+  border-radius: 5px;
+}
+
+.buttom-start:hover {
+  color: #cc2323;
+  border: 2px solid;
+  border-color: #cd2323;
+
+}
+
+ /*  Menu  */
+
+
+.menu {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  background-color: #1e1e22;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 21px;
+  border-top: 2px solid #cd2323;
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline;
+}
+
+.menu ul li a {
+  padding: 40px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu ul li a:hover {
+  color: #cd2323;
+}
+
+/*Sobre a Revolução*/
+.a-rev, .a-tr {
+  background-color: #232323;
+}
+
+.a-tr {
+  background-color: #1e1e23;
+}
+
+.a-box {
+  margin: auto;
+  display: block;
+  max-width: 1000px;
+
+}
+
+.a-text {
+  padding: 85px 0;
+  color: #f1f1f1;
+  text-align: center;
+
+}
+
+.a-text h2 {
+  padding-bottom: 30px;
+  font-size: 25px;
+  text-align: center;
+
+}
+
+ /* conteúdo */
+
+ .wrap {
+   display: block;
+   max-width: 1600px;
+   margin: 0 auto;
+   padding: 0 20px;
+ }
+
+
+.cont {
+  padding-top: 50px;
+}
+
+.periodoA, .periodoB, .periodoC {
+  text-align: center;
+  padding-bottom: 10em;
+}
+
+.cont-text, .cont-img {
+  width: 48%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.cont-title {
+  font-family: Roboto, sans-serif;;
+  font-weight: 700;
+  font-size: 23px;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.cont-p {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+
+.cont-btn {
+  padding: 6px;
+  color: #fff;
+  background-color: #1e1e22;
+  border-radius: 4px;
+}
+
+.cont-btn:hover {
+  color: #f1f1f1;
+  border: 2px solid #cd2323;
+}
+
+/*Integrantes*/
+
+.itg {
+  width: 22 .333%;
+  text-align: center;
+  background-color: #1e1e22;
+}
+
+.itg h3 {
+  padding-top: 30px;
+  font-size: 22px;
+  color: #f1f1f1;
+
+}
+
+.c, .l, .m, .r {
+  padding: 0 70px;
+  margin: 55px 0;
+  text-align: center;
+  display: inline-block;
+}
+
+.itg-name {
+  margin: 0;
+  color: #fff;
+  font-size: 23.333px;
+}
+
+.itg-sub {
+  margin: 0;
+  color: #f1f1f1;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/*Footer*/
+
+.footer {
+  padding: 5px 0;
+  text-align: center;
+  color: #6a6a6a;
+  background-color: #232326;
+}
+
+.footer a {
+  color: #6a6a6a;
+}
+
+.footer a:hover {
+  color: #cd2323;
+}
